@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+  background-color: #2d8320;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    height: 100vh;
+    padding: 10px;
+}
+
+.editor,
+.preview {
+    flex: 1;
+    padding: 10px;
+}
+
+textarea {
+    width: 100%;
+    height: 100%;
+    resize: none;
+    border: 1px solid #ccc;
+    padding: 5px;
+}
+
+.preview {
+    background-color: #f8f8f8;
+    border: 1px solid #ccc;
+    overflow: auto;
+    white-space: pre-wrap;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6; /* Adjust line height as needed */
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.editor,
+.preview {
+    flex: 1;
+    padding: 10px;
+    overflow: auto;
+}
+
+textarea {
+    width: 100%;
+    height: 100%;
+    resize: none;
+    border: 1px solid #ccc;
+    padding: 5px;
+    line-height: 1.6; /* Adjust line height to match body line height */
+}
+
+.preview {
+    background-color: #f8f8f8;
+    border: 1px solid #ccc;
+    white-space: pre-wrap;
+    line-height: 1.6; /* Adjust line height to match body line height */
+}
+
+/* Override the marked.js styles for headings */
+.preview h1,
+.preview h2,
+.preview h3,
+.preview h4,
+.preview h5,
+.preview h6 {
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
